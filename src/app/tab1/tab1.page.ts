@@ -46,7 +46,7 @@ export class Tab1Page implements OnInit{
     const {data, role} = await modal.onWillDismiss();
 
     if (role === 'confirm'){
-      console.log('Hello, ${data}!');
+      console.log('Hello', data);
       
     }
   }
